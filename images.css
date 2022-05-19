@@ -1,0 +1,39 @@
+#hot {
+  width: 100px;
+  border-radius: 50px;
+}
+
+#boxes{
+  margin-top:20px;
+}
+#boxes .container {
+  display: flex;
+  justify-content: space-between;
+}
+#boxes .box{
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+
+
+
+img#showcase-img {
+  width: 100%;
+}
+
+@media(max-width: 768px){
+  #boxes .container{
+    display: block;
+
+  }
+  #boxes .container .box {
+  text-align: center;
+  width: 100%;
+  }
+}
